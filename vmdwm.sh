@@ -7,9 +7,9 @@ pacman -S xorg-server xorg-xinit xorg-xkill xorg-xsetroot xorg-xbacklight xorg-x
      fzf man-db xwallpaper python-pywal yt-dlp unclutter xclip maim \
      zip unzip unrar tar p7zip xdotool brightnessctl \
      dosfstools ntfs-3g git sxhkd zsh pipewire pipewire-pulse \
-     rsync qutebrowser python-adblock pdfjs newsboat dash at cronie \
-     xcompmgr libnotify dunst slock jq reflector \
-     dhcpcd networkmanager rsync pamixer \
+     rsync qutebrowser python-adblock pdfjs firefox newsboat dash at cronie \
+     xcompmgr libnotify dunst jq reflector \
+     dhcpcd networkmanager rsync pamixer pulsemixer \
      zsh-syntax-highlighting zsh-completions xdg-user-dirs
 
 printf '\033c'
@@ -35,6 +35,9 @@ sudo make -C ~/.local/src/wmname install
 
 git clone https://github.com/kr-pk/tabbed.git ~/.local/src/tabbed
 sudo make -C ~/.local/src/tabbed install
+
+git clone https://github.com/kr-pk/slock.git ~/.local/src/slock
+sudo make -C ~/.local/src/slock install
 
 git clone https://aur.archlinux.org/libxft-bgra.git ~/.local/src/libxft-bgra
 cd $HOME/.local/src/libxft-bgra
