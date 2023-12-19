@@ -63,7 +63,7 @@ pacman -S xorg-server xorg-xinit xorg-xkill xorg-xsetroot xorg-xbacklight xorg-x
      zip unzip unrar tar p7zip xdotool brightnessctl \
      dosfstools ntfs-3g git sxhkd zsh pipewire pipewire-pulse \
      rsync qutebrowser python-adblock pdfjs firefox newsboat dash at cronie \
-     xcompmgr libnotify dunst jq reflector \
+     xcompmgr libnotify xterm dunst jq reflector \
      dhcpcd networkmanager rsync pamixer pulsemixer \
      zsh-syntax-highlighting zsh-completions xdg-user-dirs
 
