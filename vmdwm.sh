@@ -4,7 +4,7 @@ echo "\n....Welcome To Kr. PK's DWM Installer Script For ARCH....\n"
 pacman -S xorg-server xorg-xinit xorg-xkill xorg-xsetroot xorg-xbacklight xorg-xprop xorg-xrandr \
      mailcap polkit gnu-free-fonts ttf-fira-code ttf-joypixels ttf-font-awesome \
      sxiv mpv mpd mpc ncmpcpp btop tmux emacs zathura zathura-pdf-mupdf ffmpeg imagemagick \
-     fzf man-db xwallpaper python-pywal yt-dlp unclutter xclip maim \
+     fzf ytfzf ueberzug man-db xwallpaper python-pywal yt-dlp unclutter xclip maim \
      zip unzip unrar tar p7zip xdotool brightnessctl \
      dosfstools ntfs-3g git sxhkd zsh pipewire pipewire-pulse \
      rsync qutebrowser python-adblock pdfjs firefox newsboat dash at cronie \
